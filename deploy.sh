@@ -120,7 +120,7 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
 fi
 
 # 3. Angular prod build
-if [ -e "$DEPLOYMENT_SOURCE/.angular.json" ]; then
+if [ -e "$DEPLOYMENT_SOURCE/angular.json" ]; then
   echo "Building app in $DEPLOYMENT_SOURCE"
   cd "$DEPLOYMENT_SOURCE"
   eval $NPM_CMD run build
