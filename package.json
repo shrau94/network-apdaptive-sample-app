@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~6.2.2",
     "@angular/animations": "^6.1.0",
     "@angular/cdk": "^6.2.0",
     "@angular/common": "^6.1.0",
@@ -29,11 +30,12 @@
     "ng-connection-service": "^1.0.4",
     "ngx-bootstrap": "^5.2.0",
     "rxjs": "~6.2.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.8.26",
+    "typescript": "~2.9.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.8.0",
     "@angular/cli": "~6.2.2",
+    "@angular-devkit/build-angular": "~0.8.0",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
     "@fortawesome/angular-fontawesome": "^0.3.0",
