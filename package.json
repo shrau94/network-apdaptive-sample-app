@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "imagesloaded": "^4.1.4",
     "jquery": "^3.4.1",
+    "kuduscript": "^1.0.17",
     "masonry-layout": "^4.2.2",
     "ng-connection-service": "^1.0.4",
     "ngx-bootstrap": "^5.2.0",
