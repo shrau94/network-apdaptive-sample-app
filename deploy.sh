@@ -87,7 +87,7 @@ selectNodeVersion () {
       NODE_EXE=node
     fi
 
-    NPM_CMD="\"$NODE_EXE\" \"$NPM_JS_PATH\""
+    NPM_CMD="node /opt/nodejs/10.17.1/bin/npm"
   else
     NPM_CMD=npm
     NODE_EXE=node
@@ -107,7 +107,8 @@ if [[ "$IN_PLACE_DEPLOYMENT" -ne "1" ]]; then
 fi
 
 # 2. Select node version
-selectNodeVersion
+#selectNodeVersion
+NPM_CMD="node /opt/nodejs/10.17.0/bin/npm"
 
 # 3. Install npm packages
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
