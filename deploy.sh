@@ -108,7 +108,7 @@ echo Handling node.js deployment.
 
 # 2. Select node version
 #selectNodeVersion
-NPM_CMD="node /opt/nodejs/10.17.0/bin/npm"
+NPM_CMD="node /opt/nodejs/12.13.0/bin/npm"
 
 # 3. Install npm packages
 if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
