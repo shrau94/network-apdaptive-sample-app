@@ -14,3 +14,4 @@ Run `ng serve` for starting the application.
 
 Navigate to `http://localhost:4200/` to open the application. The app will automatically reload if you change any of the source files.
 
+Demo of the application: [LINK](https://drive.google.com/file/d/1Nfpr6Exshsec7_d0u3bgR15q756P7bwP/view)
